@@ -1,0 +1,66 @@
+{
+  "tradies": [
+    {
+      "id": "tradie_001",
+      "name": "Darren",
+      "businessName": "Darren's Plumbing",
+      "tradeType": "plumber",
+      "personalPhone": "+61412345678",
+      "vapiPhoneNumberId": "vapi_phone_id_for_darren",
+      "publicPhone": "+61398765432",
+      "serviceArea": "Melbourne Eastern Suburbs",
+      "services": [
+        "General plumbing",
+        "Hot water systems",
+        "Blocked drains",
+        "Gas fitting",
+        "Bathroom renovations"
+      ],
+      "businessHours": {
+        "timezone": "Australia/Melbourne",
+        "monday": { "start": "07:00", "end": "17:00" },
+        "tuesday": { "start": "07:00", "end": "17:00" },
+        "wednesday": { "start": "07:00", "end": "17:00" },
+        "thursday": { "start": "07:00", "end": "17:00" },
+        "friday": { "start": "07:00", "end": "16:00" },
+        "saturday": { "start": "08:00", "end": "12:00" },
+        "sunday": null
+      },
+      "emergencyEnabled": true,
+      "emergencyKeywords": ["burst pipe", "flooding", "gas leak", "no hot water", "sewage"],
+      "maxTravelMinutes": 45,
+      "active": true
+    },
+    {
+      "id": "tradie_002",
+      "name": "Mick",
+      "businessName": "Mick's Electrical",
+      "tradeType": "electrician",
+      "personalPhone": "+61423456789",
+      "vapiPhoneNumberId": "vapi_phone_id_for_mick",
+      "publicPhone": "+61397654321",
+      "serviceArea": "Melbourne Northern Suburbs",
+      "services": [
+        "Residential electrical",
+        "Switchboard upgrades",
+        "LED lighting",
+        "Safety inspections",
+        "Smoke alarm installation"
+      ],
+      "businessHours": {
+        "timezone": "Australia/Melbourne",
+        "monday": { "start": "07:30", "end": "16:30" },
+        "tuesday": { "start": "07:30", "end": "16:30" },
+        "wednesday": { "start": "07:30", "end": "16:30" },
+        "thursday": { "start": "07:30", "end": "16:30" },
+        "friday": { "start": "07:30", "end": "15:00" },
+        "saturday": null,
+        "sunday": null
+      },
+      "emergencyEnabled": true,
+      "emergencyKeywords": ["power out", "sparking", "electrical fire", "no electricity", "shock"],
+      "maxTravelMinutes": 40,
+      "active": true
+    }
+  ]
+}
