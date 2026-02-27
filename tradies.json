@@ -6,7 +6,7 @@
       "businessName": "Darren's Plumbing",
       "tradeType": "plumber",
       "personalPhone": "+61412345678",
-      "vapiPhoneNumberId": "vapi_phone_id_for_darren",
+      "vapiPhoneNumberId": "d6ee0aa1-2f9b-4bca-95e7-8db95c959446",
       "publicPhone": "+61398765432",
       "serviceArea": "Melbourne Eastern Suburbs",
       "services": [
@@ -36,7 +36,7 @@
       "name": "Mick",
       "businessName": "Mick's Electrical",
       "tradeType": "electrician",
-      "personalPhone": "+61423456789",
+      "personalPhone": "+61409778964",
       "vapiPhoneNumberId": "vapi_phone_id_for_mick",
       "publicPhone": "+61397654321",
       "serviceArea": "Melbourne Northern Suburbs",
