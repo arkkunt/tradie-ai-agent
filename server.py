@@ -28,6 +28,7 @@ from sms import (
 
 # ---- Setup ----
 load_dotenv()
+os.makedirs("logs", exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -158,7 +159,7 @@ async def vapi_webhook(request: Request):
                 },
                 "voice": {
                     "provider": "eleven-labs",
-                    "voiceId": "pFZP5JQG7iQjIQuC4Bku",  # REPLACE with your ElevenLabs Voice ID
+                    "voiceId": "5GZaeOOG7yqLdoTRsaa6",  # REPLACE with your ElevenLabs Voice ID
                     # ALT: "TX3LPaxmHKxFdv7VOQHJ" — Liam (Aussie male)
                     "stability": 0.6,
                     "similarityBoost": 0.8,
