@@ -5,7 +5,7 @@
       "name": "Darren",
       "businessName": "Darren's Plumbing",
       "tradeType": "plumber",
-      "personalPhone": "+61412345678",
+      "personalPhone": "+61409778964",
       "vapiPhoneNumberId": "d6ee0aa1-2f9b-4bca-95e7-8db95c959446",
       "publicPhone": "+61398765432",
       "serviceArea": "Melbourne Eastern Suburbs",
@@ -29,37 +29,6 @@
       "emergencyEnabled": true,
       "emergencyKeywords": ["burst pipe", "flooding", "gas leak", "no hot water", "sewage"],
       "maxTravelMinutes": 45,
-      "active": true
-    },
-    {
-      "id": "tradie_002",
-      "name": "Mick",
-      "businessName": "Mick's Electrical",
-      "tradeType": "electrician",
-      "personalPhone": "+61409778964",
-      "vapiPhoneNumberId": "vapi_phone_id_for_mick",
-      "publicPhone": "+61397654321",
-      "serviceArea": "Melbourne Northern Suburbs",
-      "services": [
-        "Residential electrical",
-        "Switchboard upgrades",
-        "LED lighting",
-        "Safety inspections",
-        "Smoke alarm installation"
-      ],
-      "businessHours": {
-        "timezone": "Australia/Melbourne",
-        "monday": { "start": "07:30", "end": "16:30" },
-        "tuesday": { "start": "07:30", "end": "16:30" },
-        "wednesday": { "start": "07:30", "end": "16:30" },
-        "thursday": { "start": "07:30", "end": "16:30" },
-        "friday": { "start": "07:30", "end": "15:00" },
-        "saturday": null,
-        "sunday": null
-      },
-      "emergencyEnabled": true,
-      "emergencyKeywords": ["power out", "sparking", "electrical fire", "no electricity", "shock"],
-      "maxTravelMinutes": 40,
       "active": true
     }
   ]
